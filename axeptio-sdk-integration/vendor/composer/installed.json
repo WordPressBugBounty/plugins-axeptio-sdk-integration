@@ -35,7 +35,7 @@
             "description": "A PHP SDK for Axeptio",
             "support": {
                 "issues": "https://github.com/axeptio/axeptio-php-sdk/issues",
-                "source": "https://github.com/axeptio/axeptio-php-sdk/tree/master"
+                "source": "https://github.com/axeptio/axeptio-php-sdk/tree/develop"
             },
             "install-path": "../axeptio/sdk"
         },
@@ -178,17 +178,17 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.2.0",
-            "version_normalized": "5.2.0.0",
+            "version": "v5.3.1",
+            "version_normalized": "5.3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb"
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
-                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "shasum": ""
             },
             "require": {
@@ -201,7 +201,7 @@
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^9.0"
             },
-            "time": "2024-09-15T16:40:33+00:00",
+            "time": "2024-10-08T18:51:32+00:00",
             "bin": [
                 "bin/php-parse"
             ],
@@ -233,7 +233,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.2.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
             "install-path": "../nikic/php-parser"
         },
@@ -703,12 +703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "17f4f136331dd04e8fedb602aae119654d5e9481"
+                "reference": "857d98630470c48a353f673060dec98e8c0686b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/17f4f136331dd04e8fedb602aae119654d5e9481",
-                "reference": "17f4f136331dd04e8fedb602aae119654d5e9481",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/857d98630470c48a353f673060dec98e8c0686b2",
+                "reference": "857d98630470c48a353f673060dec98e8c0686b2",
                 "shasum": ""
             },
             "require": {
@@ -744,7 +744,7 @@
                 "ext-soap": "To be able to generate mocks based on WSDL files",
                 "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage"
             },
-            "time": "2024-09-13T05:15:08+00:00",
+            "time": "2024-10-08T05:58:25+00:00",
             "bin": [
                 "phpunit"
             ],

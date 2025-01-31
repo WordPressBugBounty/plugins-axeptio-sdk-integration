@@ -3,7 +3,7 @@ Contributors: Axeptio
 Tags: Axeptio, GDPR, RGPD, Cookies, Consent, Privacy, eprivacy, consent, script, cmp, data, personnal, widget, googletagmanager, consentmanagement
 Requires at least: 5.0
 Tested up to: 6.5.5
-Stable tag: 2.5.1
+Stable tag: 2.5.9
 Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -82,11 +82,55 @@ Axeptio is free to use and always will be up to 200 visitors/month. If your webs
 The idea is to customize the appearance of your widget so that it matches the design of your site perfectly.
 All informations here : [Axeptio customization](https://support.axeptio.eu/hc/en-gb/articles/4402985038225-Customize-my-widget-s-aspect)
 
-== Changelog ==
+### 🔄 2.5.9 🔄 ###
 
-Bien sûr ! Voici un changelog fun pour la version 2.4.9 du plugin Axeptio :
+**Temporary Removal of WordPress Hook Caching System**
+We have identified that the WordPress hook caching system could cause issues on certain site configurations.
+To ensure optimal compatibility for all users, we have temporarily disabled this feature while we work on a more robust solution.
 
-Voici un changelog fun pour la version 2.5 du plugin Axeptio, annonçant la désactivation temporaire de l'outil de log d'erreur :
+### 🚀 2.5.8 🚀 ###
+
+**Fixes and Improvements:**
+- **Critical Bug Fix:** Resolved an issue that prevented the proper loading of the website on specific WordPress site configurations.
+- **Performance Enhancements:** Optimized rendering processes to reduce server load.
+- **Improved Compatibility:** Updated to ensure better compatibility with the latest WordPress version and modern PHP environments.
+
+We sincerely thank our users for their valuable feedback. We deeply apologize for any inconvenience caused to clients affected by this bug. We are committed to strengthening our testing processes to prevent such issues in the future.
+
+### 🚀 2.5.7 🚀 ###
+
+- **Code Refactoring:** Improved code readability and maintainability with better function organization and reduced duplication.
+- **Performance Optimization:** Ensured efficient cache handling with minimal performance impact.
+
+### ⚡️ 2.5.6 ⚡️ ###
+
+**Shutdown the hook parser if no extension is filtered in the configuration 💤**
+
+### 🔒 2.5.5 🔒 ###
+
+**Security Update:**
+- Removed temporarily local cookie handling to eliminate potential risks.
+
+### 🔒 2.5.4 🔒 ###
+
+**Security Enhancement:**
+- Fixed a Local File Inclusion vulnerability
+- Improved SDK proxy security with better file handling and encoding
+
+### 🐞 2.5.3 🐞 ###
+
+Hotfix for Alpine library load
+
+### 🌟 2.5.2 🌟 ###
+
+- **Advanced Configuration**: Updated `postConsentURL` field with a new label and a link to documentation for server-side configurations.
+- **GTM Event Management**: Added a `triggerGTMEvents` parameter for precise control of events sent to the dataLayer. Choose between: all, none, or updates only.
+- **Consent Mode V2**: Added 3 new consent purposes for enhanced flexibility:
+  - Functionality storage
+  - Personalization storage
+  - Security storage
+- **Community Contributions**: Resolved Alpine.js conflicts with an integrated PR. Thanks to [@sayedulsayem](https://github.com/sayedulsayem)!
+
 
 ### 🐞 2.5.1 🐞 ###
 
@@ -98,7 +142,7 @@ Hotfix for undefined variable
 
 **Error Logging Tool Taking a Power Nap 💤**
 
-In this release, we've temporarily disabled our error logging tool. But don't worry! It’s just taking a break to come back stronger, faster, and smarter. 💪
+In this release, we've temporarily disabled our error logging tool. But don't worry! It's just taking a break to come back stronger, faster, and smarter. 💪
 
 ### 🎉 2.4.9 🎉 ###
 
@@ -136,7 +180,7 @@ We have greatly enhanced our caching system for hook detection, significantly bo
 ### 🛠️ 2.4.3 🛠️ ###
 
 **Temporary Removal of Caching Feature 🔄**
-We’ve identified an issue with our new caching system that might have affected performance for some users. As we work on a more robust solution, we have temporarily removed this feature to ensure the best experience for all our users.
+We've identified an issue with our new caching system that might have affected performance for some users. As we work on a more robust solution, we have temporarily removed this feature to ensure the best experience for all our users.
 
 - **Apologies for Any Inconvenience 🙏**
 We're sorry for any trouble this might have caused. We're dedicated to getting it right, and appreciate your understanding as we make these adjustments.
