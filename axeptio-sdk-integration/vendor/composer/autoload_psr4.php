@@ -6,9 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    '\\Axeptio\\Plugin\\' => array($baseDir . '/includes/classes'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Axeptio\\SDK\\' => array($vendorDir . '/axeptio/sdk/src'),
+    'Axeptio\\Plugin\\' => array($baseDir . '/includes/classes'),
 );

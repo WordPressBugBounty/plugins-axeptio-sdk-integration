@@ -1,9 +1,9 @@
 === Axeptio - Cookie Banner - GDPR Consent & Compliance with a friendly touch ===
 Contributors: Axeptio
-Tags: Axeptio, GDPR, RGPD, Cookies, Consent
+Tags: Axeptio, GDPR, RGPD, Cookies, Consent, Privacy
 Requires at least: 5.0
 Tested up to: 6.8.1
-Stable tag: 2.5.9.1
+Stable tag: 2.6.0
 Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -57,7 +57,7 @@ Please follow our documentation to configure and test your settings for Axeptio 
 
 == Documentation ==
 
-Read all [our documentation](https://support.axeptio.eu/en)
+Read all [our documentation](https://support.axeptio.eu/hc/en-gb)
 
 == Why Choose Axeptio for WordPress? ==
 
@@ -75,16 +75,29 @@ Axeptio is free to use and always will be up to 200 visitors/month. If your webs
 2. Select the "Here are our cookies" screen or create it if needed by clicking "New."
 3. Click on "Add a new cookie" > our cookie library appears
 4. Search for your cookie by entering its name
-[Add New tag](https://support.axeptio.eu/en/articles/274092-how-to-add-a-new-cookie-in-my-tags-list)
+[Add New tag](https://support.axeptio.eu/hc/en-gb/articles/7658814085137-How-to-add-a-new-Cookie-in-my-tags-list-)
 
 = Customize my widget's aspect =
 
 The idea is to customize the appearance of your widget so that it matches the design of your site perfectly.
-All informations here : [Axeptio customization](https://support.axeptio.eu/en/articles/273978-3-widget-customisation)
+All informations here : [Axeptio customization](https://support.axeptio.eu/hc/en-gb/articles/4402985038225-Customize-my-widget-s-aspect)
 
-### 📃 2.5.9.1 📃 ###
+== Changelog ==
 
-**Fix doc links**
+### ⚡️ 2.6.0 ⚡️ ###
+
+This new version introduces several major improvements and fixes:
+
+- ✅ **Compatibility with WP Consent API**
+  Native integration with the [WP Consent API](https://wordpress.org/plugins/wp-consent-api/) plugin.
+- 🔐 **Security fixes**
+  Enhanced overall plugin security.
+- ⚙️ **Customizable shortcode blocking screen**
+  Customize the appearance and content of the screens that block shortcodes pending consent.
+- 🔁 **Optional page reload on consent**
+  Ability to trigger an automatic page reload after a blocking screen is validated (especially useful for HubSpot forms and other third-party services).
+- 🌍 **Multilingual support for the Axeptio widget screen**
+  Dynamic display of consent texts in the site's language.
 
 ### 🔄 2.5.9 🔄 ###
 

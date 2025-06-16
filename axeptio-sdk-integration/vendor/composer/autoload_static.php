@@ -15,10 +15,6 @@ class ComposerStaticInit10823bfdd3e825f7fda3d83314d82540
     );
 
     public static $prefixLengthsPsr4 = array (
-        '\\' => 
-        array (
-            '\\Axeptio\\Plugin\\' => 16,
-        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -31,14 +27,11 @@ class ComposerStaticInit10823bfdd3e825f7fda3d83314d82540
         'A' => 
         array (
             'Axeptio\\SDK\\' => 12,
+            'Axeptio\\Plugin\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        '\\Axeptio\\Plugin\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/includes/classes',
-        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -54,6 +47,10 @@ class ComposerStaticInit10823bfdd3e825f7fda3d83314d82540
         'Axeptio\\SDK\\' => 
         array (
             0 => __DIR__ . '/..' . '/axeptio/sdk/src',
+        ),
+        'Axeptio\\Plugin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/includes/classes',
         ),
     );
 
